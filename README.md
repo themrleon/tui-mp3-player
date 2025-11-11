@@ -12,7 +12,7 @@ This is a very simple TUI MP3 player using `mpg123` under the hood:
 Existing tools are too complicated to compile for embedded systems, all I needed was a simple, no dependencies TUI mp3 player, but none of the existing tools I tried had binaries for my raspberry pi 32 bit ARMv6, and compilling them from source required lots of odd libraries with different versions from the ones my OS had, things got very time consumming and got nowhere, that is why I made this.
 
 # How the tool works ?
-This is only a terminal UI using the famous `ncurses` library, that is the only dependency to compile this tool from scratch, `ncurses` is available for anything and likely already in your OS, making this tool ideal if you just want a simple way to play mp3 files with some dignity in the console without haveing to manually call `mpg123` with the mp3 file names. The tool will show a list of all MP3 files in the current directory, and will use `mpg123` to play them once you select one.
+This is only a terminal UI using the famous `ncurses` library, that is the only dependency to compile this tool from scratch, `ncurses` is available for anything and likely already in your OS, making this tool ideal if you just want a simple way to play mp3 files with some dignity in the console without having to manually call `mpg123` with the long mp3 file names. The tool will show a list of all MP3 files in the current directory, and will use `mpg123` to play them once you select one.
 
 # How to compile and run ?
 1. Install the `ncurses` development library, ex: `sudo apt install libncurses-dev`
@@ -21,7 +21,7 @@ This is only a terminal UI using the famous `ncurses` library, that is the only 
 4. Go to a folder that has mp3 files and run it `tuimp3`
 
 # Controls
-* Arrow keys = Move up/down and scroll horizontally on long music names
+* Arrow keys = Move up/down and scroll horizontally for long music names
 * Q = Quit
 * S = Stop playing
 * ENTER = Play selected music
