@@ -20,5 +20,11 @@ This is only a terminal UI using the famous `ncurses` library, that is the only 
 3. Run `make` and `sudo make install`
 4. Go to a folder that has mp3 files and run it `tuimp3`
 
+# Controls
+* Arrow keys = Move up/down and scroll horizontally on long music names
+* Q = Quit
+* S = Stop playing
+* ENTER = Play selected music
+
 > [!NOTE]
-> The tool supports two parameters, text and background color, numbers 0 to 7, ex: `./tuimp3 0 1`
+> The tool supports two parameters, text and background color, numbers 0 to 7, ex: `tuimp3 0 1`
